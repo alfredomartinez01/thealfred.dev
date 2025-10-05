@@ -1,0 +1,67 @@
+---
+---
+
+<section class="hero">
+  <div class="container">
+    <h1>👋 Hi, I'm Alfredo Martinez</h1>
+    <p class="tagline">Full Stack Developer | Tech Enthusiast</p>
+    <p class="description">
+      Welcome to my portfolio! This is a test site built with Astro to showcase
+      the power of modern web development.
+    </p>
+  </div>
+</section>
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: fadeInUp 0.8s ease-out;
+  }
+
+  .tagline {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+    animation: fadeInUp 0.8s ease-out 0.2s backwards;
+  }
+
+  .description {
+    font-size: 1.1rem;
+    opacity: 0.85;
+    animation: fadeInUp 0.8s ease-out 0.4s backwards;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+    }
+  }
+</style>
