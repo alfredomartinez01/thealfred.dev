@@ -69,3 +69,45 @@ All commands are run from the root of the project, from a terminal:
 ## 📝 License
 
 ISC
+
+## 🚢 Deployment
+
+This Astro site can be deployed to various platforms:
+
+### Vercel
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+```
+
+### Netlify
+```bash
+# Build command
+npm run build
+
+# Publish directory
+dist
+```
+
+### GitHub Pages
+Add to `astro.config.mjs`:
+```js
+export default defineConfig({
+  site: 'https://thealfred.dev',
+  base: '/',
+});
+```
+
+Then build and deploy the `dist` folder.
+
+## 🎨 Customization
+
+Edit the components in `src/components/` to customize:
+- **Hero.astro** - Update name and tagline
+- **About.astro** - Modify personal information
+- **Skills.astro** - Add/remove skills and proficiency levels
+- **Projects.astro** - Showcase your own projects
+- **Contact.astro** - Update contact links
