@@ -1,0 +1,17 @@
+{
+  "name": "thealfred.dev",
+  "version": "1.0.0",
+  "description": "Portfolio website built with Astro",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [],
+  "author": "Alfredo Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "astro": "^5.14.1"
+  }
+}

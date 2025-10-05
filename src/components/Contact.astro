@@ -1,0 +1,106 @@
+---
+---
+
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Get In Touch</h2>
+    <p class="contact-intro">
+      Feel free to reach out for collaborations, opportunities, or just a friendly chat!
+    </p>
+    <div class="contact-links">
+      <a href="mailto:contact@thealfred.dev" class="contact-card">
+        <span class="icon">📧</span>
+        <span class="text">Email</span>
+      </a>
+      <a href="https://github.com/alfredomartinez01" target="_blank" class="contact-card">
+        <span class="icon">💻</span>
+        <span class="text">GitHub</span>
+      </a>
+      <a href="https://linkedin.com" target="_blank" class="contact-card">
+        <span class="icon">💼</span>
+        <span class="text">LinkedIn</span>
+      </a>
+      <a href="https://twitter.com" target="_blank" class="contact-card">
+        <span class="icon">🐦</span>
+        <span class="text">Twitter</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2024 Alfredo Martinez. Built with Astro 🚀</p>
+</footer>
+
+<style>
+  .contact {
+    padding: 4rem 2rem;
+    background: var(--bg-color);
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+
+  .contact-intro {
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    color: #666;
+  }
+
+  .contact-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .contact-card {
+    background: var(--card-bg);
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+
+  .text {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .footer {
+    background: var(--text-color);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .footer p {
+    margin: 0;
+  }
+</style>
